@@ -1,0 +1,53 @@
+{
+  "source": "src/assets/portraits/raw/yukino_sad-raw.png",
+  "sheet_alpha": "sheet-alpha.png",
+  "rows": 1,
+  "cols": 1,
+  "key_color": "#FF00FF",
+  "transparent_threshold": 14.0,
+  "opaque_threshold": 190.0,
+  "alpha_threshold": 8,
+  "edge_contract": 1,
+  "edge_feather": 0.25,
+  "despill": true,
+  "mode": "trim",
+  "sheet_corner_alpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "portraits": [
+    {
+      "id": "yukino_sad",
+      "index": 1,
+      "row": 1,
+      "col": 1,
+      "image": "yukino_sad.png",
+      "source_cell": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "output_size": [
+        1013,
+        1521
+      ],
+      "alpha_bbox": [
+        11,
+        15,
+        1024,
+        1536
+      ],
+      "alpha_coverage": 0.645938,
+      "edge_touch": [
+        "bottom"
+      ],
+      "empty": false
+    }
+  ],
+  "warnings": [
+    "yukino_sad: subject touches cell edge: bottom"
+  ]
+}

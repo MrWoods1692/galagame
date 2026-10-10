@@ -1,0 +1,53 @@
+{
+  "name": "galagame",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "樱花时节 · 纯前端静态视觉小说：无后端、无登录，存档与进度全部保存在浏览器本地数据库（IndexedDB），支持导出/导入备份。",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrWoods1692/galagame.git"
+  },
+  "homepage": "https://github.com/MrWoods1692/galagame#readme",
+  "bugs": {
+    "url": "https://github.com/MrWoods1692/galagame/issues"
+  },
+  "keywords": [
+    "visual-novel",
+    "galgame",
+    "react",
+    "vite",
+    "static-site",
+    "indexeddb"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "oxlint src"
+  },
+  "dependencies": {
+    "lucide-react": "^0.576.0",
+    "miaoda-game-scenario-react": "^0.3.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tone": "^15.1.22"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.5",
+    "autoprefixer": "^10.4.23",
+    "oxlint": "^1.66.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.11",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "~5.9.3",
+    "vite": "^8.2.1"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
